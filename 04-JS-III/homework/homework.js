@@ -213,6 +213,7 @@ function mesesDelAño(array) {
   array.includes('Noviembre')?findNoviembre=true:findNoviembre=false;
   return findEnero===true&&findMarzo===true&&findNoviembre===true?nuevoArray:"No se encontraron los meses pedidos"
 
+  
 }
 
 
